@@ -1,0 +1,145 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding:0 2%;
+}
+.logo{
+	float: left;
+}
+
+.logo h2{
+	font-weight: normal;
+	font-size: 23px;
+}
+
+.logo a{
+	color: black;
+	text-decoration: none;
+}
+
+nav.menu-desktop li.selected{font-weight: normal;text-decoration: underline;}
+nav.menu-desktop{
+	float: right;
+}
+
+nav.menu-desktop ul{
+	position: relative;
+	top: 8px;
+}
+
+nav.menu-desktop li{
+	padding:0 10px;
+	font-weight: lighter;
+	display: inline-block;
+}
+nav.menu-desktop a{
+	color: black;
+	text-decoration: none;
+}
+
+nav.menu-desktop a:hover{text-decoration: underline;}
+
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.LoginPage{
+    width: 100%;
+    background-color:#448ed4;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Login{
+    display: flex;
+    background-color: white;
+    padding: 40px;
+    width: 500px;
+    border-radius: 10px;
+    flex-direction: column;
+    box-shadow:0px 0px 10px 0px rgb(0,0,0, 0.8);
+    text-align: center;
+}
+
+.Login h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.Login p{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Login input{
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.Login label{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.Login a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.Login input[type=submit]{
+    width: 200px;
+    height: 50px;
+    background: #1d6c64;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    color: white;
+    font-weight:normal;
+    font-size: 16px;
+    position: relative;
+    margin-left: 110px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container input[type="number"] {
+    margin-right: 10px;
+}
