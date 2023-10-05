@@ -143,6 +143,10 @@ button:hover {
     margin-right: 10px;
 }
 
+.input-container button{
+    margin: 20px;
+}
+
 canvas {
     position: absolute;
     top: 0;
